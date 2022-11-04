@@ -33,9 +33,9 @@ function App() {
           <Route path='/signin' element={<SigninPage />} />
           <Route path='/signup' element={<SignupPage />} />
           <Route path='/account' element={<AccountPage />} />
-          <Route path='/coin/:coinId' element={<CoinPage />}>
-            <Route path=':coinId/>' />
-          </Route>
+          <Route path='/coin/:coinId' element={<CoinPage />} />
+          {/* <Route path=':coinId/>' />
+          </Route> */}
         </Routes>
         <Footer />
       </AuthContextProvider>
