@@ -1,6 +1,6 @@
 # Crypto App
 
-## Hosted At
+## Hosted at:
 ### https://jc-crypto-app.web.app/
 
 ## Technologies used for this project include:
